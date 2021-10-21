@@ -1,0 +1,156 @@
+*,*:before,*:after{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 11, 114);
+    padding:20px 90px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+.wallet{
+    background:darkblue;
+    padding:30px 10px;
+    color:#fff;
+    text-decoration: none;
+    margin:5px 30px;
+    display: block;
+    text-align: center;
+}
+
+.box-informativo{
+    display: inline-block;
+    width:45%;
+    margin-right: 140px;
+    vertical-align: top;
+}
+.box-informativo h1{
+    color:#fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.description p{
+    color: #b1b1b1;
+    text-align: justify;
+}
+.img-wallet{
+    background-image: url("../img/w1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:15px;
+    height: 240px;
+}
+/* .img-wallet img{
+    width:100%;
+} */
+.box-ingreso{
+    display: inline-block;
+    width:25%;
+    /* height: 190px; */
+    padding:50px 40px;
+    background-color: beige;
+    text-align: center;
+}
+
+form{
+
+}
+form label{
+    color:rgb(44, 44, 44);
+    padding-right: 20px;
+    text-transform: capitalize;    
+}
+form input{
+    padding-left: 20px;
+    margin:5px;
+}
+/* form label:nth-child(4){
+    padding-right: 12px;
+}
+form label:nth-child(6){
+    padding-right: 32px;
+} */
+
+.formulario{
+    color:rgb(52, 8, 102);
+    text-align: center;
+    padding-bottom:40px;
+}
+fieldset{
+    margin:5px auto;
+}
+
+.btn-wallet{
+    background:darkblue;
+    padding:5px 10px;
+    color:#fff;
+    text-decoration: none;
+/*     margin:30px; */
+    display: block;
+    text-align: center;
+    width:60%;
+    margin:auto;
+    z-index: 3;
+}
+.btn-wallet a{
+    color:#fff;
+    text-decoration:none;
+}
+ /* wallet */
+
+ legend{
+     color:rgb(47, 4, 148);
+     font-size: 1.2em;
+     text-transform: uppercase;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align:center;
+     font-weight: 600;
+ }
+ .saldo{
+     background-color: #fff;
+     margin:50px 400px;
+     padding:20px;
+     border:solid 1px #b1b1b1
+ }
+ .saldo label{
+     text-transform: capitalize;
+     margin-right: 50px;
+ }
+ .box-bol{
+     background:rgb(87, 132, 174);
+     width:30%;
+     margin:10px;
+     display: inline-block;
+ }
+ .box-bol h3{
+     text-align: center;
+     text-transform: uppercase;
+     color:#fff;
+     text-shadow: 1px 1px 1px rgb(109, 109, 109);
+ }
+ .nom{
+    font-size: 1.2em;
+    text-align: center;
+    width: 100%;
+    display: block;
+    text-transform: capitalize;
+    margin-top: 10px;
+    color:rgb(22, 0, 43);
+ }
+ .btn-recarga{
+    background:darkblue;
+    padding:5px 10px;
+    color:#fff;
+    text-decoration: none;
+/*     margin:30px; */
+    display: block;
+    text-align: center;
+    width:60%;
+    margin:auto;
+    z-index: 3;
+ }

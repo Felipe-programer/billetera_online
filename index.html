@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyWallet</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="wallet">
+        <div class="box-informativo">
+            <h1>easewallet</h1>
+            <div class="description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, ipsa error itaque explicabo tempora expedita. Quod autem assumenda, voluptates, inventore suscipit necessitatibus, veritatis cum voluptatem dolore blanditiis nesciunt repudiandae cumque.</p>
+            </div>
+            <div class="img-wallet">
+               <!--  <img src="img/w1.png" alt=""> -->
+            </div>
+        </div>
+        <div class="box-ingreso">
+            <form action="">
+                <h2 class="formulario">Formulario</h2>
+                <fieldset>
+                    <label> usuario</label>
+                    <input id="usuario" type="text" placeholder="miusuario" required>
+                </fieldset>
+                <fieldset>
+                    <label> cantidad</label>
+                    <input id="cantidad" type="text" placeholder="5.000" min="0" max="5000000" required>
+                </fieldset>
+                <fieldset>
+                    <label> bolsillo1</label>
+                    <input id="bolsillo1" type="text" placeholder="Estudios" required>
+                </fieldset>
+                <fieldset>
+                    <label> bolsillo2</label>
+                    <input id="bolsillo2" type="text" placeholder="Comida" required>
+                </fieldset>
+                <fieldset>
+                    <label> bolsillo3</label>
+                    <input id="bolsillo3" type="text" placeholder="Viajes" required>
+                </fieldset>
+                <fieldset>
+
+                    <label> contraseña</label>
+                    <input type="password"  placeholder="*****" required>
+            </form>
+            <button id="btn-wallet" class="btn-wallet" type="submit">Ir A Wallet</button>
+        </div>
+    </div>
+    <div id="administrador" class="administrador">
+        <div class="saldo">
+            <legend>tu bolsillo</legend>
+            <fieldset>
+                <fieldset>
+                    <label for="">disponible</label>
+                    <span id="saldo"></span>
+                </fieldset>
+            </fieldset>
+        </div>
+        <div class="bolsillo">
+            <div class="box-bol">
+                <h3>bolsillo 1</h3>
+                <span id="bol1" class="nom"></span>
+                <span class="nom" id="valor1"></span>
+                <input id="ext1" type="number">
+            </div>
+            <div class="box-bol">
+                <h3>bolsillo 2</h3>
+                <span id="bol2" class="nom"></span>
+                <span class="nom" id="valor2"></span>
+                <input id="ext2" type="number">
+            </div>
+            <div class="box-bol">
+                    <h3>bolsillo 3</h3>
+                    <span id="bol3" class="nom"></span>
+                    <span class="nom" id="valor3"></span>
+                    <input id="ext3" type="number">
+            </div>
+            <button id="btn-recarga"  class="btn-recarga">RECARGAR</button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
